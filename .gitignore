@@ -11,6 +11,11 @@
 *.sln.docstates
 *.env
 
+# Hide C# source files and project files from public repo view
+*.cs
+*.csproj
+*.sln
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
