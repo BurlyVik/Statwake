@@ -29,7 +29,7 @@ You may move the Overlay form from the dark shaded area.
 
 Bounds detection will appear as green scan-lines when within snap-range (_50px from bounds edges_)
 
-<img width="373" height="51" alt="image" src="https://github.com/user-attachments/assets/5002cb6c-b7c7-46bf-ae4b-6cde50bb45ee" />
+<img width="640" height="501" alt="explorer_5y5adFfmJY" src="https://github.com/user-attachments/assets/c5ea5f4a-4336-45af-ba84-12472925557c" />
 
 Both save file and color changing labels will be saved into a config file for later reloading.
 
