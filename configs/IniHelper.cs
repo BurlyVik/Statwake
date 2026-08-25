@@ -1,0 +1,31 @@
+﻿using System.IO;
+using System.Runtime.InteropServices;
+using System.Text;
+
+namespace statwake
+{
+    /// <summary>
+    /// Ini Helper to old Color and Profile Location
+    /// </summary>
+    public static class IniHelper
+    {
+        [DllImport("kernel32", CharSet = CharSet.Unicode)]
+        private static extern long WritePrivateProfileString(string section, string key, string val, string filePath);
+
+        [DllImport("kernel32", CharSet = CharSet.Unicode)]
+        private static extern int GetPrivateProfileString(string section, string key, string def, StringBuilder retVal, int size, string filePath);
+
+        public static void WriteValue(string section, string key, string value, string filePath)
+        {
+            WritePrivateProfileString(section, key, value, filePath);
+        }
+
+        public static string ReadValue(string section, string key, string filePath, string defaultValue = "")
+        {
+            StringBuilder temp = new StringBuilder(255);
+            GetPrivateProfileString(section, key, defaultValue, temp, 255, filePath);
+            return temp.ToString();
+        }
+    }
+
+}
