@@ -25,6 +25,9 @@ To move the color-wheel, hold shift and left mouse-click. For every label color 
 
 You may move the Overlay form from the dark shaded area. Bounds detection will appear as green scan-lines when within snap-range (_50px from bounds edges_)
 
+<img width="847" height="274" alt="firefox_hks5N9tsLY" src="https://github.com/user-attachments/assets/10fab7bf-7107-4b82-bb60-2dabce8e10dd" />
+
+
 <img width="373" height="51" alt="image" src="https://github.com/user-attachments/assets/5002cb6c-b7c7-46bf-ae4b-6cde50bb45ee" />
 
 **Note**: There may be instances where the file monitor may not check often, this is a slight bug I am trying to address, but the death counter is rather flawless.
