@@ -4,6 +4,7 @@ This program acts as a real-time save file monitor and stats overlay for Elden R
 It watches your save data in the background so you can see core player details—like your character name, level, playtime, and death count—right inside a lightweight custom overlay window on your screen. Whenever the game updates your save file, the program catches the change automatically, reads the fresh values every couple of seconds, and updates your stats on the fly without needing you to pause or tab out of the game.
 
 Start by selecting browse to locate your Elden Save path. By default browse initial directory is set to %APPDATA%\Elden Ring
+
 <img width="329" height="666" alt="image" src="https://github.com/user-attachments/assets/174985b6-0c29-4c60-bc04-555f19d78bd7" />
 
 You can show the the log to what profiles have been loaded, but the Profile box will contain the slot data.
