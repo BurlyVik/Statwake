@@ -23,6 +23,10 @@ To hide the color wheel, just right+click the wheel.
 
 To move the color-wheel, hold shift and left mouse-click. For every label color change the wheel is reset, best if chosen from its default location
 
-Note: There may be instances where the file monitor may not check often, this is a slight bug I am trying to address, but the death counter is rather flawless.
+You may move the Overlay form from the dark shaded area. Bounds detection will appear as green scan-lines when within snap-range (_50px from bounds edges_)
+
+<img width="373" height="51" alt="image" src="https://github.com/user-attachments/assets/5002cb6c-b7c7-46bf-ae4b-6cde50bb45ee" />
+
+**Note**: There may be instances where the file monitor may not check often, this is a slight bug I am trying to address, but the death counter is rather flawless.
 
 Disclaimer: Use Statwake at your own risk. I am not responsible for any bans, restrictions, or issues that may arise from using this program. I have tested it personally with EAC for nearly two weeks without any trouble, but if you have concerns regarding Easy Anti-Cheat, you are under no obligation to use this tool. Feel free to research how to disable EAC on your own system if you choose to proceed.
