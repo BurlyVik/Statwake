@@ -19,16 +19,23 @@ To change the label colors, right + click the labels on Overlay and select a col
 
 <img width="495" height="348" alt="image" src="https://github.com/user-attachments/assets/6669effa-87f7-4766-9b58-4566a26c5bfb" />
 
-To hide the color wheel, just right+click the wheel.
+To move the color-wheel, hold shift and left mouse-click. For every label color change the wheel is reset, best if chosen from its default location. And to hide the color wheel, just right+click the wheel.
 
-To move the color-wheel, hold shift and left mouse-click. For every label color change the wheel is reset, best if chosen from its default location
+<img width="681" height="679" alt="explorer_ZSLmBGfijr" src="https://github.com/user-attachments/assets/6cb00353-28ae-404d-b3ef-b9a2035824af" />
 
-You may move the Overlay form from the dark shaded area. Bounds detection will appear as green scan-lines when within snap-range (_50px from bounds edges_)
+You may move the Overlay form from the dark shaded area. 
 
 <img width="847" height="274" alt="firefox_hks5N9tsLY" src="https://github.com/user-attachments/assets/10fab7bf-7107-4b82-bb60-2dabce8e10dd" />
 
+Bounds detection will appear as green scan-lines when within snap-range (_50px from bounds edges_)
 
 <img width="373" height="51" alt="image" src="https://github.com/user-attachments/assets/5002cb6c-b7c7-46bf-ae4b-6cde50bb45ee" />
+
+Both save file and color changing labels will be saved into a config file for later reloading.
+
+<img width="514" height="248" alt="image" src="https://github.com/user-attachments/assets/57f61647-b646-4315-b27e-b154a0acc8bd" />
+
+You may also change which profile to monitor during gameplay, since the program is just "checking" the file, there is no hold or lock preventing you from cycling slots. Helps when playing a different character while game is running.
 
 **Note**: There may be instances where the file monitor may not check often, this is a slight bug I am trying to address, but the death counter is rather flawless.
 
