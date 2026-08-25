@@ -7,15 +7,25 @@ on:
 
 jobs:
   release:
-    runs-on: windows-2025
+    runs-on: windows-latest
     permissions:
       contents: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Create Release and Upload Assets
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0'
+
+      - name: Publish Statwake
+        run: dotnet publish -c Release -o ./publish
+
+      - name: Archive Release
+        run: Compress-Archive -Path ./publish/* -DestinationPath Statwake_v1.0.zip
+
+      - name: Create Release and Upload Asset
         uses: softprops/action-gh-release@v2
         with:
-          files: |            
-            Statwake_v1.0.zip 
+          files: Statwake.zip
