@@ -31,6 +31,10 @@ Bounds detection will appear as green scan-lines when within snap-range (_50px f
 
 <img width="640" height="501" alt="explorer_5y5adFfmJY" src="https://github.com/user-attachments/assets/c5ea5f4a-4336-45af-ba84-12472925557c" />
 
+Adjust transparency of the form with Ctrl+Wheel Mouse
+
+<img width="720" height="219" alt="2FdqsqhCAb" src="https://github.com/user-attachments/assets/d18c58ef-c751-4bc0-b68f-2e18954bf7d2" />
+
 Both save file and color changing labels will be saved into a config file for later reloading.
 
 <img width="514" height="248" alt="image" src="https://github.com/user-attachments/assets/57f61647-b646-4315-b27e-b154a0acc8bd" />
